@@ -10,6 +10,8 @@ CPU onnx libs are included for macOS and Linux.
 CUDA tries to link by default. As outlined via the addon_config.mk file. 
 Will fallback to CPU if not present. 
 
+[Download the GPU libs](https://github.com/microsoft/onnxruntime/releases/tag/v1.24.4) for Linux. Unzip and put libs into `ofxOnnx / libs / onnxruntime / lib / linux64`
+
 ## macOS
 ### Copy dylibs in Xcode 
 If there is an error regarding the onnx runtime dylib not linking.
